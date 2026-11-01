@@ -1,0 +1,14 @@
+# Large data and model outputs (keep out of the repository)
+*.nc
+*.sqlite3
+*.pkl
+*_openwater_depth_wasp_calibration.csv
+hydat_levels_flows_depth.csv
+extreme_Q_*_diagnostic.csv
+*_overview.png
+
+# Python / OS clutter
+__pycache__/
+*.pyc
+*.bak_before_fix
+.DS_Store
