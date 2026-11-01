@@ -51,7 +51,7 @@ Requirements: Python 3 with `numpy`, `pandas`, `scipy`, `xarray`, `netCDF4` and 
    - add one entry per station to `STATIONS`, with `station`, `mizu_nc` (mizuRoute output), `topo_nc` (topology with `segId` and `slope`) and `target_seg` (the gauged reach)
 2. Run:
    ```bash
-   cd pipeline
+   cd tools/depth_geometry/pipeline
    python run_pipeline.py
    ```
 3. For each station, a folder `<out_path>/<station>/` gets:
